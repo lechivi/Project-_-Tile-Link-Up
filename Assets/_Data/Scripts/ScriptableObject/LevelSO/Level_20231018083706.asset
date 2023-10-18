@@ -12,8 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e37615f4ceca43e4a8fa31c0009c8fd4, type: 3}
   m_Name: Level_20231018083706
   m_EditorClassIdentifier: 
-  nameLevel: Level 0
-  totalTile: 25
+  nameLevel: Level 1
+  totalTile: 10
+  playTime: 120
   poolTile:
   - TileSO: {fileID: 11400000, guid: 2df73204a718bdc4fa81ef29f2e12083, type: 2}
     Chance: 2

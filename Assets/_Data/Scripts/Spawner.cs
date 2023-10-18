@@ -43,7 +43,7 @@ public class Spawner : MonoBehaviour
             }
             pos.x = Random.Range(boundLeft, boundRight);
             pos.z = Random.Range(boundDown, boundUp);
-            pos.y = Random.Range(1.5f, 2.5f);
+            pos.y = Random.Range(0.75f, 1.25f);
             curLoop++;
         }
         while (!IsPositionValid(pos));

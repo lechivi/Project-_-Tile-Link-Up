@@ -21,6 +21,7 @@ public class LevelSO : ScriptableObject
 {
     [SerializeField] private string nameLevel = "Level 0";
     [SerializeField] private int totalTile = 5;
+    [SerializeField] private int playTime = 120;
     [SerializeField] private List<TileInLevel> poolTile = new List<TileInLevel>();
 
     public string NameLevel
@@ -29,7 +30,9 @@ public class LevelSO : ScriptableObject
         set
         {
             this.nameLevel = value;
+#if UNITY_EDITOR
             EditorUtility.SetDirty(this);
+#endif
         }
     }
     public int TotalTile
@@ -38,7 +41,20 @@ public class LevelSO : ScriptableObject
         set
         {
             this.totalTile = value;
+#if UNITY_EDITOR
             EditorUtility.SetDirty(this);
+#endif
+        }
+    } 
+    public int PlayTime
+    {
+        get => this.playTime;
+        set
+        {
+            this.playTime = value;
+#if UNITY_EDITOR
+            EditorUtility.SetDirty(this);
+#endif
         }
     }
     public List<TileInLevel> PoolTile
@@ -47,7 +63,9 @@ public class LevelSO : ScriptableObject
         set
         {
             this.poolTile = value;
+#if UNITY_EDITOR
             EditorUtility.SetDirty(this);
+#endif
         }
     }
 

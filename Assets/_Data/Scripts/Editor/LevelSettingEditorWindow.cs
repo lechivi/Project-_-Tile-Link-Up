@@ -58,10 +58,15 @@ public class LevelSettingEditorWindow : EditorWindowPlus
                     GUILayout.Label("Level " + (i + 1), EditorStyles.boldLabel);
 
                     GUILayout.BeginHorizontal();
-                    GUILayout.Label("TotalTile", GUILayout.Width(70));
+                    GUILayout.Label("Total Tile", GUILayout.Width(100));
                     levels[i].TotalTile = EditorGUILayout.IntField(levels[i].TotalTile, GUILayout.MaxWidth(100));
                     GUILayout.EndHorizontal();
-                    
+
+                    GUILayout.BeginHorizontal();
+                    GUILayout.Label("Play Time (s)", GUILayout.Width(100));
+                    levels[i].PlayTime = EditorGUILayout.IntField(levels[i].PlayTime, GUILayout.MaxWidth(100));
+                    GUILayout.EndHorizontal();
+
                     GUILayout.Space(10);
                     this.DrawPanelLevel(levels[i]);
                 }
