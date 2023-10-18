@@ -17,7 +17,7 @@ public class Learn_Vector : MonoBehaviour
         {
             //transform.position = Vector3.zero;
             Vector3 upDirection = transform.rotation * Vector3.up;
-            Debug.Log(transform.up + transform.right);
+            Debug.Log(transform.up.y);
             //Debug.Log(transform.right);
             //Debug.Log(transform.forward);
         }
