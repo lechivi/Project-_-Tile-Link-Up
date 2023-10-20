@@ -4,13 +4,13 @@ using UnityEngine;
 
 public class UI_Slot : MonoBehaviour
 {
-    [SerializeField] private Tile tile;
+    [SerializeField] private TileCtrl tile;
 
-    public Tile Tile { get => this.tile; set => this.tile = value; }
+    public TileCtrl Tile { get => this.tile; set => this.tile = value; }
 
     public bool IsHaveTile()
     {
-        return GetComponentInChildren<Tile>() != null;
+        return GetComponentInChildren<TileCtrl>() != null;
     }
 
     //public void 

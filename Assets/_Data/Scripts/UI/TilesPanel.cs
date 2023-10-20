@@ -29,7 +29,7 @@ public class TilesPanel : SaiMonoBehaviour
         TilesPanel.instance = this;
     }
 
-    public void PlaceTile(Tile tile, Transform destTransform)
+    public void PlaceTile(TileCtrl tile, Transform destTransform)
     {
         if (tile == null)
         {
@@ -44,7 +44,7 @@ public class TilesPanel : SaiMonoBehaviour
         this.FindMatches(3);
     }
 
-    public bool AddTileToSlot(Tile tile)
+    public bool AddTileToSlot(TileCtrl tile)
     {
         foreach (UI_Slot uiSlot in this.slots)
         {
@@ -56,7 +56,7 @@ public class TilesPanel : SaiMonoBehaviour
                 this.AddKeyTileSO(tile.TileSO);
 
 
-                tile.Move(uiSlot.transform, 0.25f);
+                tile.TileMovement.Move(uiSlot.transform, 0.25f);
                 return true;
             }
         }
@@ -83,12 +83,12 @@ public class TilesPanel : SaiMonoBehaviour
         return (index >= 0 && index < this.slots.Count);
     }
 
-    private void FindMatches(int lenght = 3)
+    private void FindMatches(int minLength = 3)
     {
         List<TileSO> matches = new List<TileSO>();
         foreach (var kvp in this.tileCounts)
         {
-            if (kvp.Value >= 3)
+            if (kvp.Value >= minLength)
             {
                 matches.Add(kvp.Key as TileSO);
             }

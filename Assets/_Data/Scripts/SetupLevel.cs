@@ -28,7 +28,7 @@ public class SetupLevel : SaiMonoBehaviour
         {
             for (int j = 0; j < this.matchCount; j++)
             {
-                Tile tile = this.spawner.Spawn().GetComponent<Tile>();
+                TileCtrl tile = this.spawner.Spawn().GetComponent<TileCtrl>();
                 tile.SetTile(tileSOs[i]);
             }
         }
