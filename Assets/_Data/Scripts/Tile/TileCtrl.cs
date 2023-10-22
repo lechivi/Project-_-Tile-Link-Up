@@ -14,7 +14,6 @@ public class TileCtrl : SaiMonoBehaviour
     [Header("DATA")]
     [SerializeField] private TileSO tileSO;
 
-    private bool isAtSlot = false;
     private Coroutine addTorqueRoutine;
 
     #region PUBLIC PROPERTIES
@@ -22,15 +21,15 @@ public class TileCtrl : SaiMonoBehaviour
     public Collider Col { get => this.col; }
     public Outline Outline { get => this.outline; }
     public SpriteRenderer SpriteRenderer { get => this.spriteRenderer; }
-    public TileBehaviour TileBehaviour { get => this.tileBehaviour;}
-    public TileInputHandle TileInputHandle { get => this.tileInputHandle;}
-    public TileMovement TileMovement { get => this.tileMovement;}
+    public TileBehaviour TileBehaviour { get => this.tileBehaviour; }
+    public TileInputHandle TileInputHandle { get => this.tileInputHandle; }
+    public TileMovement TileMovement { get => this.tileMovement; }
     public TileSO TileSO { get => this.tileSO; }
     #endregion
 
-    protected override void LoadCompoent()
+    protected override void LoadComponent()
     {
-        base.LoadCompoent();
+        base.LoadComponent();
         if (this.rb == null)
             this.rb = GetComponent<Rigidbody>();
 
@@ -53,7 +52,7 @@ public class TileCtrl : SaiMonoBehaviour
             this.tileMovement = GetComponentInChildren<TileMovement>();
     }
 
-    private void Start()
+    private void OnEnable()
     {
         this.outline.enabled = false;
     }
@@ -78,39 +77,15 @@ public class TileCtrl : SaiMonoBehaviour
         }
     }
 
-
-    //private void OnMouseEnter()
-    //{
-    //    Vector3 targetPosition = new Vector3(transform.position.x, 0.5f, transform.position.z);
-    //    this.tileMovement.Move(targetPosition, 0.25f);
-
-    //    this.SetStatic(true);
-    //    this.outline.enabled = true;
-    //}
-
-    //private void OnMouseExit()
-    //{
-    //    if (this.isAtSlot) return;
-    //    if (this.outline.enabled)
-    //        this.outline.enabled = false;
-
-    //    this.SetStatic(false);
-    //    this.tileMovement.IsMoving = false;
-    //}
-
-    //private void OnMouseUp()
-    //{
-    //    bool canAdd = TilesPanel.instance.AddTileToSlot(this);
-    //    if (canAdd)
-    //    {
-    //        this.outline.enabled = false;
-    //        this.isAtSlot = true;
-    //    }
-    //}
-
     public void SetTile(TileSO tileSO)
     {
+        if (tileSO == null)
+        {
+            Debug.Log("Null paramenter tileSO");
+        }
         this.tileSO = tileSO;
+        if (this.spriteRenderer == null)
+            Debug.Log("Null spriteRrr");
         if (tileSO.Sprite != null)
             this.spriteRenderer.sprite = tileSO.Sprite;
     }
@@ -119,5 +94,27 @@ public class TileCtrl : SaiMonoBehaviour
     {
         this.rb.useGravity = !isStatic;
         this.rb.isKinematic = isStatic;
+    }
+
+    public void SetState(bool isPhysic)
+    {
+        if (isPhysic)
+        {
+            UI_Slot slot = GetComponentInParent<UI_Slot>();
+            if (slot != null)
+            {
+                slot.RemoveTile();
+            }
+
+            this.SetStatic(false);
+            this.col.isTrigger = false;
+            this.TileInputHandle.IsSelected = false;
+        }
+
+        else
+        {
+            this.SetStatic(true);
+            this.col.isTrigger = true;
+        }
     }
 }

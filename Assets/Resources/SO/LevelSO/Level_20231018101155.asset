@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e37615f4ceca43e4a8fa31c0009c8fd4, type: 3}
+  m_Name: Level_20231018101155
+  m_EditorClassIdentifier: 
+  nameLevel: Level 0
+  totalTile: 17
+  playTime: 100
+  poolTile:
+  - TileSO: {fileID: 11400000, guid: 0cb73a7dfd6f94548af73719a7a944fe, type: 2}
+    Chance: 2
+  - TileSO: {fileID: 11400000, guid: 33a58adfd9edf3a488e85a28c52286e6, type: 2}
+    Chance: 2
+  - TileSO: {fileID: 11400000, guid: 31ba99f1c227d0749ad114b5488f7184, type: 2}
+    Chance: 2
+  - TileSO: {fileID: 11400000, guid: 055a9cd5b8d7fd241bc855a35985365a, type: 2}
+    Chance: 2
+  - TileSO: {fileID: 11400000, guid: 6e46b0515d737a6428c7a14ffef4188f, type: 2}
+    Chance: 4
+  - TileSO: {fileID: 11400000, guid: 3e18778d98494eb43853058dc6a3bd16, type: 2}
+    Chance: 2
+  - TileSO: {fileID: 11400000, guid: 9fec28bb9f64c904da92b9ad77e2034b, type: 2}
+    Chance: 2
+  - TileSO: {fileID: 11400000, guid: 8f246ce372129e64ab34cbeefdba8c04, type: 2}
+    Chance: 2
+  - TileSO: {fileID: 11400000, guid: b581c333ebeeab54a970c0117ca6ef6c, type: 2}
+    Chance: 1
+  - TileSO: {fileID: 11400000, guid: d30e1622b9bf5b644bf96b9a52a3caa1, type: 2}
+    Chance: 1
+  - TileSO: {fileID: 11400000, guid: 29453b61501463a49a630093f3c23a2a, type: 2}
+    Chance: 2
+  - TileSO: {fileID: 11400000, guid: f10f10deb1d20d54dbfba4f043a585cf, type: 2}
+    Chance: 2
+  - TileSO: {fileID: 11400000, guid: ad0483c17f4d1824cbbd3ed8b8947ae9, type: 2}
+    Chance: 2
+  - TileSO: {fileID: 11400000, guid: 2dc358f0d9ad914479626d43ce8c1d34, type: 2}
+    Chance: 3
+  - TileSO: {fileID: 11400000, guid: e3ea21bb2bc436743a561d98f3747a57, type: 2}
+    Chance: 3
+  - TileSO: {fileID: 11400000, guid: 2df73204a718bdc4fa81ef29f2e12083, type: 2}
+    Chance: 3
+  - TileSO: {fileID: 11400000, guid: c78159cbd41471a4fafbc493acc300a8, type: 2}
+    Chance: 3
+  - TileSO: {fileID: 11400000, guid: 5ae340f646595bc48b782bacadfdc081, type: 2}
+    Chance: 3
+  - TileSO: {fileID: 11400000, guid: 4bd513ca1be16584d878238a78cf879d, type: 2}
+    Chance: 3
+  - TileSO: {fileID: 11400000, guid: 103bfd67dc3cde843a443ef0ee467200, type: 2}
+    Chance: 2
+  - TileSO: {fileID: 11400000, guid: 4afc139afcefefd4faa861d26d9da331, type: 2}
+    Chance: 3
+  - TileSO: {fileID: 11400000, guid: 18857b58a0ea01d4e8f6fa736a4124ee, type: 2}
+    Chance: 3
+  - TileSO: {fileID: 11400000, guid: 2d3064cfe8aa48d47974aca9e47a19b5, type: 2}
+    Chance: 4
+  - TileSO: {fileID: 11400000, guid: f34862cc68d253842bf72898b1998add, type: 2}
+    Chance: 1
+  - TileSO: {fileID: 11400000, guid: 8a139a2a1d652154abfbcd54f183f79d, type: 2}
+    Chance: 1

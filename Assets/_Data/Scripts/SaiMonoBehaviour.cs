@@ -5,15 +5,15 @@ public class SaiMonoBehaviour : MonoBehaviour
     [ContextMenu("Load Component")]
     private void LoadComponentContextMenu()
     {
-        this.LoadCompoent();
+        this.LoadComponent();
     }
 
     protected virtual void Awake()
     {
-        this.LoadCompoent();
+        this.LoadComponent();
     }
 
-    protected virtual void LoadCompoent()
+    protected virtual void LoadComponent()
     {
         //For override
     }

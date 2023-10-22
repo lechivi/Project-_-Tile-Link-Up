@@ -4,9 +4,9 @@ public abstract class TileAbstract : SaiMonoBehaviour
 {
     [SerializeField] protected TileCtrl tileCtrl;
 
-    protected override void LoadCompoent()
+    protected override void LoadComponent()
     {
-        base.LoadCompoent();
+        base.LoadComponent();
         if (this.tileCtrl == null )
             this.tileCtrl = transform.parent.GetComponent<TileCtrl>();
     }

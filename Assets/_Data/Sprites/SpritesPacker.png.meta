@@ -1,0 +1,604 @@
+fileFormatVersion: 2
+guid: 83f4056d5a26b3148bf74e92920a749b
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+  nPOTScale: 1
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 3DS - Pokemon Battle Trozei Pokemon Link Battle - Pokemon 1st Generation
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1216
+        width: 768
+        height: 832
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88dbe149a2a792642b50cd2ae5793b1c
+      internalID: 2088806934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Avatar-Avatar 192x192
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 672
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 178d6fb4ce67aca49a64643bb1fa53a0
+      internalID: 1751006527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Avatar-Avatar Round 192x192
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 576
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1971e8c20bca6e0409c4986133ba0b25
+      internalID: 1582472822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icon-cancel
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1544
+        width: 251
+        height: 248
+      alignment: 9
+      pivot: {x: 0.50199205, y: 0.48790324}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bc62f59c59ad18489c08934fd2c8bbe
+      internalID: 1272810626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icon-cog
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 969
+        width: 247
+        height: 247
+      alignment: 9
+      pivot: {x: 0.49392712, y: 0.51012146}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b99a171de3e9584f8483e703116c667
+      internalID: 1782073172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icon-house
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 740
+        width: 242
+        height: 238
+      alignment: 9
+      pivot: {x: 0.49586776, y: 0.48739496}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de97a6a8e3a03d44dac702e349cdc6af
+      internalID: 434801594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icon-infinity
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1139
+        width: 250
+        height: 163
+      alignment: 9
+      pivot: {x: 0.492, y: 0.5030675}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8374077073cdf91469ffff4936336a54
+      internalID: 1093465426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icon-pause-button
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 403
+        width: 158
+        height: 214
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e929ae41313d2045ba1121ee1af0216
+      internalID: 1237669811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icon-play-button
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 426
+        width: 179
+        height: 172
+      alignment: 9
+      pivot: {x: 0.5027933, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f07592dde955553429ce5ab8e71f9488
+      internalID: -435324207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icon-round-star
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 978
+        width: 248
+        height: 238
+      alignment: 9
+      pivot: {x: 0.48790324, y: 0.49159664}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa6d5e6ba5db7a641aa39060909fd25e
+      internalID: 241606909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icon-rupee
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 330
+        width: 161
+        height: 246
+      alignment: 9
+      pivot: {x: 0.5031056, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a87ea57a6ab80849b3e79949ac27c56
+      internalID: -2082454214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icon-Skill-light-bulb
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 89
+        width: 160
+        height: 241
+      alignment: 9
+      pivot: {x: 0.5625, y: 0.48547718}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3b9cdd38566409488df8a88627774e8
+      internalID: -1059023331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icon-Skill-rapidshare-arrow
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 978
+        width: 248
+        height: 238
+      alignment: 9
+      pivot: {x: 0.5, y: 0.49159664}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b29e86da15e0104ebbc9b6c9d8b1cc8
+      internalID: 1178806320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icon-Skill-return-arrow
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1302
+        width: 251
+        height: 242
+      alignment: 9
+      pivot: {x: 0.49402392, y: 0.49586776}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 835568cb21c980b45b7dc4aa05215f62
+      internalID: -630443941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icon-Skill-snowflake-1
+      rect:
+        serializedVersion: 2
+        x: 743
+        y: 768
+        width: 243
+        height: 244
+      alignment: 9
+      pivot: {x: 0.50617284, y: 0.49590164}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a3d594da4c0f154786df14d88365d38
+      internalID: -2015033890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icon-Skill-upgrade
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 735
+        width: 235
+        height: 234
+      alignment: 9
+      pivot: {x: 0.50212765, y: 0.50427353}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc390a9a12963d74a8197231988872f2
+      internalID: -199923277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icon-sound-off
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 617
+        width: 227
+        height: 153
+      alignment: 9
+      pivot: {x: 0.52863437, y: 0.5816994}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a06646b96eb0d5a48b72c5915af0d6e7
+      internalID: -1231126759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icon-sound-on
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 770
+        width: 238
+        height: 208
+      alignment: 9
+      pivot: {x: 0.5042017, y: 0.52403843}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94b18b8b77a82a24994823d1c44700a2
+      internalID: 558337579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icon-speaker
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 565
+        width: 185
+        height: 170
+      alignment: 9
+      pivot: {x: 0.47567567, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d24185db50209b4ea1632c276441fde
+      internalID: 198169293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icon-speaker-off
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 598
+        width: 191
+        height: 170
+      alignment: 9
+      pivot: {x: 0.460733, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebe6080165cc77e40bf2d679964dcf7f
+      internalID: -1926037015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icon-stopwatch
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 502
+        width: 205
+        height: 238
+      alignment: 9
+      pivot: {x: 0.502439, y: 0.50840336}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1a8176b50ad09b4fb42596e6087a270
+      internalID: 2100631467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pokeball
+      rect:
+        serializedVersion: 2
+        x: 743
+        y: 1012
+        width: 246
+        height: 127
+      alignment: 9
+      pivot: {x: 0.5081301, y: 0.503937}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0752651e6a2919340a9ac9c4579eb7b8
+      internalID: 1371064531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simpleBorder
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1792
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad138ce49265ecf48a1b4f4e4aabddab
+      internalID: 357667023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: f08f890ec8fae284fae2341c0a30c0b8
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Avatar-Avatar Round 192x192: 1582472822
+      Icon-Skill-return-arrow: -630443941
+      Icon-Skill-upgrade: -199923277
+      Icon-Skill-light-bulb: -1059023331
+      simpleBorder: 357667023
+      Icon-play-button: -435324207
+      Icon-stopwatch: 2100631467
+      Icon-round-star: 241606909
+      Icon-house: 434801594
+      Icon-speaker-off: -1926037015
+      Icon-cancel: 1272810626
+      Icon-infinity: 1093465426
+      Avatar-Avatar 192x192: 1751006527
+      Icon-sound-off: -1231126759
+      3DS - Pokemon Battle Trozei Pokemon Link Battle - Pokemon 1st Generation: 2088806934
+      Icon-Skill-snowflake-1: -2015033890
+      Icon-sound-on: 558337579
+      Pokeball: 1371064531
+      Icon-rupee: -2082454214
+      Icon-pause-button: 1237669811
+      Icon-speaker: 198169293
+      Icon-cog: 1782073172
+      Icon-Skill-rapidshare-arrow: 1178806320
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

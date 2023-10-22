@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 3505887625612674405}
   m_Layer: 0
   m_Name: TilePrefab
-  m_TagString: Untagged
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -142,7 +142,7 @@ Transform:
   m_GameObject: {fileID: 2802213640448897974}
   m_LocalRotation: {x: 0.70710677, y: -0.0000000059269007, z: -0.000000005155368, w: 0.7071068}
   m_LocalPosition: {x: 0, y: 0.3049999, z: 0}
-  m_LocalScale: {x: 1.5, y: 1.4999996, z: 1.5}
+  m_LocalScale: {x: 1.6000001, y: 1.6000001, z: 1.6000001}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 499879234211408900}
@@ -343,8 +343,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tileCtrl: {fileID: 0}
   flipTorque: 100
-  flipForce: 200
+  flipForce: 100
   flipWaitTime: 2
+  rotationSpeed: 360
 --- !u!1 &3459355408521290473
 GameObject:
   m_ObjectHideFlags: 0

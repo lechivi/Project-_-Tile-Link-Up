@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e37615f4ceca43e4a8fa31c0009c8fd4, type: 3}
+  m_Name: Level_20231018101152
+  m_EditorClassIdentifier: 
+  nameLevel: Level 0
+  totalTile: 14
+  playTime: 120
+  poolTile:
+  - TileSO: {fileID: 11400000, guid: 2df73204a718bdc4fa81ef29f2e12083, type: 2}
+    Chance: 2
+  - TileSO: {fileID: 11400000, guid: c78159cbd41471a4fafbc493acc300a8, type: 2}
+    Chance: 2
+  - TileSO: {fileID: 11400000, guid: 5ae340f646595bc48b782bacadfdc081, type: 2}
+    Chance: 2
+  - TileSO: {fileID: 11400000, guid: 3b4fb860f87e12f4490ea7bd76b84f57, type: 2}
+    Chance: 3
+  - TileSO: {fileID: 11400000, guid: 7f4a25d92d079b74ea4f90d35ba441d1, type: 2}
+    Chance: 3
+  - TileSO: {fileID: 11400000, guid: bec1e408e103a0b468329ca586e0eed3, type: 2}
+    Chance: 3
+  - TileSO: {fileID: 11400000, guid: e3ea21bb2bc436743a561d98f3747a57, type: 2}
+    Chance: 2
+  - TileSO: {fileID: 11400000, guid: 7b5fa747a88aaa640848cd241e5e954b, type: 2}
+    Chance: 4
+  - TileSO: {fileID: 11400000, guid: f1f803f59c97d8f4dbab11ec2f174672, type: 2}
+    Chance: 3
+  - TileSO: {fileID: 11400000, guid: a571fc38e47d08e47a6dc0f0bdf36cac, type: 2}
+    Chance: 3
+  - TileSO: {fileID: 11400000, guid: 8a139a2a1d652154abfbcd54f183f79d, type: 2}
+    Chance: 3
+  - TileSO: {fileID: 11400000, guid: f34862cc68d253842bf72898b1998add, type: 2}
+    Chance: 3
+  - TileSO: {fileID: 11400000, guid: f6e0e64e1d613854682582894b307714, type: 2}
+    Chance: 2
+  - TileSO: {fileID: 11400000, guid: 103bfd67dc3cde843a443ef0ee467200, type: 2}
+    Chance: 2
+  - TileSO: {fileID: 11400000, guid: 2dc358f0d9ad914479626d43ce8c1d34, type: 2}
+    Chance: 3
+  - TileSO: {fileID: 11400000, guid: 4afc139afcefefd4faa861d26d9da331, type: 2}
+    Chance: 2
+  - TileSO: {fileID: 11400000, guid: 5d34207bce9cdf64d8b2ffe3bb202ed6, type: 2}
+    Chance: 4

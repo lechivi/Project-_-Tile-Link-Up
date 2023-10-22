@@ -1,5 +1,4 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class TileMovement : TileAbstract
@@ -13,7 +12,7 @@ public class TileMovement : TileAbstract
     public bool IsMovingTransform { get => this.isMovingTransform; set => this.isMovingTransform = value; }
     public bool IsMovingPosition { get => this.isMovingPosition; set => this.isMovingPosition = value; }
 
-    public void Move(Transform destTransform, float timeToMove) //destination
+    public void Move(Transform destTransform, float timeToMove)
     {
         if (!this.isMovingTransform)
         {
@@ -32,7 +31,7 @@ public class TileMovement : TileAbstract
 
         this.isMovingTransform = true;
 
-        while (!reachedDestination && this.isMovingTransform)
+        while (!reachedDestination)
         {
             if (Vector3.Distance(tileTransform.position, destTransform.position) < 0.01f)
             {
@@ -48,7 +47,6 @@ public class TileMovement : TileAbstract
             tileTransform.position = Vector3.Lerp(startPosition, destTransform.position, t);
             tileTransform.rotation = Quaternion.Slerp(startRotation, Quaternion.identity, t);
 
-            //Wait until next frame
             yield return null;
         }
 
@@ -57,7 +55,7 @@ public class TileMovement : TileAbstract
     }
 
 
-    public void Move(Vector3 destination, float timeToMove) //destination
+    public void Move(Vector3 destination, float timeToMove)
     {
         if (!this.isMovingPosition)
         {

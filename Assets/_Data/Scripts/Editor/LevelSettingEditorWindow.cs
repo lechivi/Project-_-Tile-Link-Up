@@ -218,7 +218,7 @@ public class LevelSettingEditorWindow : EditorWindowPlus
         //    allowSceneObjects: false, options: GUILayout.Width(70));
         if (tileInLevel.TileSO != null)
         {
-            GUILayout.Label("Name: " + tileInLevel.TileSO.NameSprite, GUILayout.Width(this.wColumn_Tile));
+            GUILayout.Label("Name: " + tileInLevel.TileSO.NameTile, GUILayout.Width(this.wColumn_Tile));
         }
 
         if (GUILayout.Button("Select", GUILayout.Width(this.wColumn_Tile)))
@@ -299,7 +299,7 @@ public class LevelSettingEditorWindow : EditorWindowPlus
     private void CreateNewLevelSO()
     {
         string nameLevel = "Level_" + DateTime.Now.ToString("yyyyMMddHHmmss");
-        string path = "Assets/_Data/Scripts/ScriptableObject/LevelSO/" + nameLevel + ".asset";
+        string path = "Assets/Resources/SO/LevelSO/" + nameLevel + ".asset";
 
         this.CreateNewAsset(new LevelSO(), path);
     }

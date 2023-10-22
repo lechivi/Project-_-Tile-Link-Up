@@ -98,7 +98,7 @@ public class TileSettingEditorWindow : EditorWindowPlus
         GUILayout.Space(this.spaceColumn);
         EditorGUILayout.BeginVertical(GUILayout.MaxWidth(this.wColumn_Name), GUILayout.ExpandHeight(false));
 
-        tile.NameSprite = EditorGUILayout.TextField(tile.NameSprite);
+        tile.NameTile = EditorGUILayout.TextField(tile.NameTile);
 
         EditorGUILayout.EndVertical();
 
@@ -129,7 +129,7 @@ public class TileSettingEditorWindow : EditorWindowPlus
     private void CreateNewTileSO()
     {
         string nameTile = "Tile_" + DateTime.Now.ToString("yyyyMMddHHmmss");
-        string path = "Assets/_Data/Scripts/ScriptableObject/TileSO/" + nameTile + ".asset";
+        string path = "Assets/Resources/SO/TileSO/" + nameTile + ".asset";
 
         this.CreateNewAsset(new TileSO(), path);
     }

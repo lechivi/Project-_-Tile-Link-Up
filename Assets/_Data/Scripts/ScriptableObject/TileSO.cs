@@ -4,15 +4,15 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "TileSO", menuName = "SO/Tile")]
 public class TileSO : ScriptableObject
 {
-    [SerializeField] private string nameSprite = "Tile";
+    [SerializeField] private string nameTile = "Tile";
     [SerializeField] private Sprite sprite;
 
-    public string NameSprite
+    public string NameTile
     {
-        get => this.nameSprite;
+        get => this.nameTile;
         set
         {
-            this.nameSprite = value;
+            this.nameTile = value;
 #if UNITY_EDITOR
             EditorUtility.SetDirty(this);
 #endif
