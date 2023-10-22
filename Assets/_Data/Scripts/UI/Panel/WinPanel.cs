@@ -51,12 +51,6 @@ public class WinPanel : BaseUIElement
             GameManager.Instance.ResumeGame();
         }
 
-        if (GameplayManager.HasInstance)
-        {
-            GameplayManager.Instance.PoolTile.SetInactiveTile();
-            GameplayManager.Instance.SetupLevel();
-        }
-
         if (UIManager.HasInstance)
         {
             UIManager.Instance.HideAllPanel();

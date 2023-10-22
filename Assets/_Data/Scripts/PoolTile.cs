@@ -7,8 +7,6 @@ public class PoolTile : SaiMonoBehaviour
     [SerializeField] private List<TileCtrl> poolingTile = new List<TileCtrl>();
     [SerializeField] private List<TileCtrl> tilesGame = new List<TileCtrl>();
 
-    [SerializeField] private int maxSpawn = 20;
-
     [Header("Bounds")]
     [SerializeField] private float boundUp = 11f;
     [SerializeField] private float boundDown = -8f;
@@ -23,8 +21,6 @@ public class PoolTile : SaiMonoBehaviour
 
     public List<TileCtrl> PoolingTile { get => this.poolingTile; set => this.poolingTile = value; }
     public List<TileCtrl> TilesGame { get => this.tilesGame; set => this.tilesGame = value; }
-    public int MaxSpawn { get => this.maxSpawn; set => this.maxSpawn = value; }
-
     private TileCtrl GetTile()
     {
         foreach(TileCtrl tile in this.poolingTile)

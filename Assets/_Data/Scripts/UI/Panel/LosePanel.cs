@@ -21,7 +21,6 @@ public class LosePanel : BaseUIElement
         if (GameplayManager.HasInstance)
         {
             GameplayManager.Instance.PoolTile.SetInactiveTile();
-            GameplayManager.Instance.SetupLevel();
         }
 
         if (UIManager.HasInstance)

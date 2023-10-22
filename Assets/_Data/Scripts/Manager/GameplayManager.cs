@@ -90,13 +90,15 @@ public class GameplayManager : BaseManager<GameplayManager>
 
         if (this.level == null) return;
 
+        this.poolTile.SetInactiveTile();
+        this.poolTile.TilesGame.Clear();
+
         TileSO[] tileSOs = this.level.GetTiles();
         for (int i = 0; i < tileSOs.Length; i++)
         {
             for (int j = 0; j < this.matchCount; j++)
             {
                 TileCtrl tile = this.poolTile.SpawnTile();
-                this.poolTile.PoolingTile.Add(tile);
                 this.poolTile.TilesGame.Add(tile);
                 tile.SetTile(tileSOs[i]);
             }

@@ -28,6 +28,7 @@ public class PlaySceneCtrl : MonoBehaviour
         if (this.CheckLoseGame() && !this.isLoseGame)
         {
             this.isLoseGame = true;
+            Debug.Log("Lose");
             Invoke("DoubleCheckLoseGame", 1.2f);
 
 
